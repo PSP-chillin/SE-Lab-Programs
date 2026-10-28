@@ -1,0 +1,58 @@
+SE LAB 03: Architecture Selection & UML Component Diagram
+Project topic: Hostel Maintenance & Issue Ticketing System
+
+
+PROBLEM STATEMENT
+-----------------
+
+Choose a suitable software architecture for the Hostel Maintenance & Issue Ticketing System Platform,
+justify the choice in writing, and model the system as
+a UML component diagram.
+
+
+
+FILES IN THIS FOLDER
+--------------------
+
+1. LAB3_SE_PES2UG24CS375.pdf
+   My submission (4 pages). It includes:
+
+We chose Layered Architecture for the Hostel Maintenance & Issue Ticketing System.
+
+1. Reason 1 — Separation of Concerns: The system separates the user interface, business logic, 
+and data storage into distinct layers. Students can report and track complaints, while the business layer 
+manages ticket assignment, maintenance workflows, and notifications.
+
+2. Reason 2 — Maintainability: Each layer has a clearly defined responsibility, making it easier to modify 
+or extend features such as complaint categorization, ticket prioritization, and issue tracking without 
+significantly affecting other layers.
+
+Security Advantage: The business layer can validate user permissions and authorize actions before allowing 
+access to sensitive complaint records or database operations, reducing unauthorized access.
+
+Performance Benefit: The separation of business logic and data access helps organize database queries and 
+ticket-processing operations, avoiding unnecessary direct database interactions and supporting efficient 
+issue tracking.
+
+Component Note: The system consists of five main components:
+1. User Interface Component — Provides the interface for students, wardens, and maintenance staff.
+2. Issue Manager Component — Handles complaint registration and ticket tracking.
+3. Maintenance Service Component — Manages ticket assignment, progress, and resolution.
+4. Notification Service Component — Sends ticket status updates and resolution notifications.
+5. Database Component — Stores complaints, user details, assignments, and ticket status.
+
+These components are organized into the Presentation, Business, and Data layers, providing a modular 
+structure that is straightforward to understand, maintain, and extend.
+
+   UML component diagram
+     1. Presentation Layer: Contains the User Interface Component, through which students, hostel wardens, 
+     and maintenance staff interact with the system to report complaints, track tickets, and view updates.
+
+    2. Business Layer: Contains three components:
+        -Issue Manager Component: Registers complaints, creates tickets, and tracks their status.
+        - Maintenance Service Component: Handles ticket assignment, maintenance progress, and issue 
+        resolution.
+        - Notification Service Component: Sends notifications regarding ticket assignments, status changes, 
+        and resolutions.
+    3. Data Layer: Contains the Database Component, which stores user details, complaints, ticket assignments, 
+    maintenance records, and ticket statuses.

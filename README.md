@@ -1,3 +1,3 @@
 # SE-Lab-Programs
 
-Contains the weekly lab works of the Subject: Software Engineering.
+Contains all the weekly lab works of the Subject: Software Engineering.
