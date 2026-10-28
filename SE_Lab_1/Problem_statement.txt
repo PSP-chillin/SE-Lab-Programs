@@ -23,7 +23,7 @@ Deliverables asked for in the handout:
 FILES IN THIS FOLDER
 --------------------
 
-1. PES2UG24CS374_LAB-01_SE_PRAVEENBALAJIP.pdf
+1. LAB1_SE_PES2UG24CS375 (1).pdf
    My submission, in three parts:
 
    Part A: Requirements Table
