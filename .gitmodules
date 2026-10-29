@@ -1,0 +1,3 @@
+[submodule "SE_Lab_5/inner-repo"]
+	path = SE_Lab_5/inner-repo
+	url = https://github.com/PSP-chillin/L5_07_campus_shuttle.git
