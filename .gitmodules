@@ -1,3 +1,6 @@
 [submodule "SE_Lab_5/L5_07_Campus_shuttle"]
 	path = SE_Lab_5/L5_07_Campus_shuttle
 	url = https://github.com/PSP-chillin/L5_07_campus_shuttle.git
+[submodule "SE_Lab_4/catch-falling"]
+	path = SE_Lab_4/catch-falling
+	url = https://github.com/PSP-chillin/07_catch_falling.git
